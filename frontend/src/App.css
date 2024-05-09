@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  position: fixed; /* Fix the position of the Navbar */
+  top: 0; /* Align Navbar to the top of the viewport */
+  width: 100%; /* Make Navbar take up the full width */
+  z-index: 1000; /* Ensure Navbar is above other elements */
+}
+.App {
+  max-width: 100%;
+  background: linear-gradient(45deg, #00d2ff, #3a7bd5);
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.navigate p {
+  cursor: pointer;
+}
+
+.container {
+  margin: 10px;
+}
+
+.home-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-image: url('Images/manage.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.left-side {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-right: 80px;
+}
+.left-side p{
+  margin-top: 70px;
+  margin-right: 80px;
+}
+.right-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-side p {
+  margin-top: 70px; 
+}
+
+span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.f-letter {
+  font-size: 3em;
+}
+
+.s-letter {
+  font-size: 1.5em;
+}
+
+.t-letter {
+  font-size: 1.2em;
+}
+
+.register {
+  border-radius: 30px;
+  background-color: #00796B;
+}
+
+.container .form {
+  height: 100%;
+  width: auto;
+}
+
+.data {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+}
+
+.complaint-box {
+  position: relative;
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.compliant-form {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 38px;
+}
+
+.nav-item p {
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.nav-item p:hover {
+  color: red;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 2rem;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-container h1 {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.message-window {
+  flex: 1;
+  overflow-x: auto;
+  padding: 10px;
+  width: 100%;
+  max-height: 200px;
+}
+
+.message {
+  background-color: #f5f5f5;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.input-container input[type="text"] {
+  width: 20px;
+  flex: 1;
+  padding: 5px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  background-color: rgb(250, 247, 247);
+}
+
+.input-container button {
+  padding: 5px 10px;
+  color: white;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.accordian,
+.body {
+  min-height: 70vh;
+}
+
+/* Navbar Adjustments */
+
+
+/* Login Form Adjustments */
+.vh-100 {
+  min-height: 100vh;
+  padding-top: 56px; /* Adjust as needed to accommodate the Navbar height */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Adjustments */
+.navbar {
+  position: fixed; /* Fix the position of the Navbar */
+  top: 0; /* Align Navbar to the top of the viewport */
+  width: 100%; /* Make Navbar take up the full width */
+  z-index: 1000; /* Ensure Navbar is above other elements */
+}
+
+/* Navbar Styling */
+.navbar-brand {
+  font-size: 1.5rem; /* Adjust Navbar brand font size */
+}
+
+.navbar-nav {
+  margin-right: 20px; /* Adjust margin for Navbar links */
+}
+
+.nav-link {
+  font-size: 1.2rem; /* Adjust font size for Navbar links */
+}
+
+/* Login Form Adjustments */
+.card {
+  max-width: 400px; /* Set the maximum width of the card */
+  margin: 0 auto; /* Center the card horizontally */
+  width:100%;
+}
+
+.card-body {
+  padding: 5rem; /* Adjust padding within the card body */
+}
+
+.form-outline {
+  margin-bottom: 20px; /* Adjust spacing between form elements */
+}
+
+.form-control {
+  height: 40px; /* Adjust the height of form inputs */
+}
+
+.form-label {
+  font-size: 14px; /* Adjust the font size of form labels */
+}
+
+.btn-lg {
+  padding: 10px 20px; /* Adjust padding of login button */
+  font-size: 14px; /* Adjust font size of login button */
+}
+
+/* Adjust the size of the form inputs */
+.form-outline.form-white input.form-control-lg {
+  width: 100%; /* Full width */
+  height: 40px; /* Example height */
+  margin-top: 20px;
+}
+
+/* Adjust the size of the login button */
+.btn.btn-outline-light.btn-lg.px-5 {
+  padding: 15px 50px; /* Example padding */
+  font-size: 20px; /* Example font size */
+}
+
+/* Footer Adjustments */
+footer {
+  position: relative; /* Fix the position of the footer */
+  bottom: 0; /* Align footer to the bottom of the viewport */
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #37474F; /* Adjust footer background color */
+  color: white; /* Adjust footer text color */
+  padding: 10px 0; /* Adjust footer padding */
+}
+
+
+/* Move Image and Form Upwards */
+.col-lg-6:first-child {
+  margin-top: 50px; /* Add top margin to the first column containing the image */
+}
+.box {
+  border: 2px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.box h3 {
+  font-size: 20px;
+}
+
+.box p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+  .vh-100 {
+    padding-top: 76px; /* Adjust to accommodate expanded Navbar height on smaller screens */
+  }
+}
+
