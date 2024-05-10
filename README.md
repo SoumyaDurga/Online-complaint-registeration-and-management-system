@@ -1,1 +1,1 @@
-The Project work of Online complaint registeration and management system contains mainly two files frontend and backend.
+The Project work of Online complaint registeration and management system contains mainly two files frontend and backend. All the code related to React is in frontend file and the backend code such as express.js,node.js and database connectivity code is in backend file.
